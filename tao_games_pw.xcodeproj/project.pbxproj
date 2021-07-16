@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231224D9269A2B5400BC6ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231224D8269A2B5400BC6ABA /* AppDelegate.swift */; };
+		231224DB269A2B5400BC6ABA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231224DA269A2B5400BC6ABA /* SceneDelegate.swift */; };
+		231224DD269A2B5400BC6ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231224DC269A2B5400BC6ABA /* ViewController.swift */; };
+		231224E0269A2B5400BC6ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231224DE269A2B5400BC6ABA /* Main.storyboard */; };
+		231224E3269A2B5400BC6ABA /* tao_games_pw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 231224E1269A2B5400BC6ABA /* tao_games_pw.xcdatamodeld */; };
+		231224E5269A2B5400BC6ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231224E4269A2B5400BC6ABA /* Assets.xcassets */; };
+		231224E8269A2B5400BC6ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231224E6269A2B5400BC6ABA /* LaunchScreen.storyboard */; };
+		231224F4269A2BF400BC6ABA /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 231224F1269A2BF400BC6ABA /* background.png */; };
+		231224F6269A2E2300BC6ABA /* cross.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 231224F5269A2E2300BC6ABA /* cross.jpg */; };
+		231224F8269A2E5B00BC6ABA /* round.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 231224F7269A2E5B00BC6ABA /* round.jpg */; };
+		23E4BC0B269B66EF005584F3 /* roundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E4BC0A269B66EF005584F3 /* roundButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		231224D5269A2B5400BC6ABA /* tao_games_pw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tao_games_pw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		231224D8269A2B5400BC6ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		231224DA269A2B5400BC6ABA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		231224DC269A2B5400BC6ABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		231224DF269A2B5400BC6ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		231224E2269A2B5400BC6ABA /* tao_games_pw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tao_games_pw.xcdatamodel; sourceTree = "<group>"; };
+		231224E4269A2B5400BC6ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		231224E7269A2B5400BC6ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		231224E9269A2B5400BC6ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231224F1269A2BF400BC6ABA /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = SOURCE_ROOT; };
+		231224F5269A2E2300BC6ABA /* cross.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cross.jpg; sourceTree = SOURCE_ROOT; };
+		231224F7269A2E5B00BC6ABA /* round.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = round.jpg; sourceTree = SOURCE_ROOT; };
+		23E4BC0A269B66EF005584F3 /* roundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231224D2269A2B5400BC6ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231224CC269A2B5400BC6ABA = {
+			isa = PBXGroup;
+			children = (
+				231224D7269A2B5400BC6ABA /* tao_games_pw */,
+				231224D6269A2B5400BC6ABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		231224D6269A2B5400BC6ABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231224D5269A2B5400BC6ABA /* tao_games_pw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231224D7269A2B5400BC6ABA /* tao_games_pw */ = {
+			isa = PBXGroup;
+			children = (
+				231224D8269A2B5400BC6ABA /* AppDelegate.swift */,
+				231224DA269A2B5400BC6ABA /* SceneDelegate.swift */,
+				23E4BC0A269B66EF005584F3 /* roundButton.swift */,
+				231224F1269A2BF400BC6ABA /* background.png */,
+				231224F5269A2E2300BC6ABA /* cross.jpg */,
+				231224F7269A2E5B00BC6ABA /* round.jpg */,
+				231224DC269A2B5400BC6ABA /* ViewController.swift */,
+				231224DE269A2B5400BC6ABA /* Main.storyboard */,
+				231224E4269A2B5400BC6ABA /* Assets.xcassets */,
+				231224E6269A2B5400BC6ABA /* LaunchScreen.storyboard */,
+				231224E9269A2B5400BC6ABA /* Info.plist */,
+				231224E1269A2B5400BC6ABA /* tao_games_pw.xcdatamodeld */,
+			);
+			path = tao_games_pw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		231224D4269A2B5400BC6ABA /* tao_games_pw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231224EC269A2B5400BC6ABA /* Build configuration list for PBXNativeTarget "tao_games_pw" */;
+			buildPhases = (
+				231224D1269A2B5400BC6ABA /* Sources */,
+				231224D2269A2B5400BC6ABA /* Frameworks */,
+				231224D3269A2B5400BC6ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tao_games_pw;
+			productName = tao_games_pw;
+			productReference = 231224D5269A2B5400BC6ABA /* tao_games_pw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		231224CD269A2B5400BC6ABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					231224D4269A2B5400BC6ABA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 231224D0269A2B5400BC6ABA /* Build configuration list for PBXProject "tao_games_pw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 231224CC269A2B5400BC6ABA;
+			productRefGroup = 231224D6269A2B5400BC6ABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				231224D4269A2B5400BC6ABA /* tao_games_pw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231224D3269A2B5400BC6ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231224F8269A2E5B00BC6ABA /* round.jpg in Resources */,
+				231224F6269A2E2300BC6ABA /* cross.jpg in Resources */,
+				231224E8269A2B5400BC6ABA /* LaunchScreen.storyboard in Resources */,
+				231224F4269A2BF400BC6ABA /* background.png in Resources */,
+				231224E5269A2B5400BC6ABA /* Assets.xcassets in Resources */,
+				231224E0269A2B5400BC6ABA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231224D1269A2B5400BC6ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231224DD269A2B5400BC6ABA /* ViewController.swift in Sources */,
+				23E4BC0B269B66EF005584F3 /* roundButton.swift in Sources */,
+				231224D9269A2B5400BC6ABA /* AppDelegate.swift in Sources */,
+				231224DB269A2B5400BC6ABA /* SceneDelegate.swift in Sources */,
+				231224E3269A2B5400BC6ABA /* tao_games_pw.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		231224DE269A2B5400BC6ABA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231224DF269A2B5400BC6ABA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		231224E6269A2B5400BC6ABA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231224E7269A2B5400BC6ABA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		231224EA269A2B5400BC6ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		231224EB269A2B5400BC6ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		231224ED269A2B5400BC6ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MLBTJX8Y9;
+				INFOPLIST_FILE = tao_games_pw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PW.tao-games-pw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		231224EE269A2B5400BC6ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MLBTJX8Y9;
+				INFOPLIST_FILE = tao_games_pw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PW.tao-games-pw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231224D0269A2B5400BC6ABA /* Build configuration list for PBXProject "tao_games_pw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231224EA269A2B5400BC6ABA /* Debug */,
+				231224EB269A2B5400BC6ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231224EC269A2B5400BC6ABA /* Build configuration list for PBXNativeTarget "tao_games_pw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231224ED269A2B5400BC6ABA /* Debug */,
+				231224EE269A2B5400BC6ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		231224E1269A2B5400BC6ABA /* tao_games_pw.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				231224E2269A2B5400BC6ABA /* tao_games_pw.xcdatamodel */,
+			);
+			currentVersion = 231224E2269A2B5400BC6ABA /* tao_games_pw.xcdatamodel */;
+			path = tao_games_pw.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 231224CD269A2B5400BC6ABA /* Project object */;
+}
